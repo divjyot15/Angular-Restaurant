@@ -1,0 +1,10 @@
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card-img-top{
+    height: 165px;
+}
+.card{
+    margin: 10px auto;
+} 

@@ -1,0 +1,28 @@
+<div class="container">
+    <div class="row">
+        <div class="col" *ngIf="dish">
+            <div class="card mb-3">
+                <img src="{{dish.image}}" class="card-img-top" alt="..." style="height: 300px;">
+                <div class="card-body">
+                    <h5 class="card-title">{{dish.name | uppercase}}</h5>
+                    <p class="card-text">{{dish.description}}</p>
+                    <p class="card-text">{{dish.price}}</p>
+                    <a href="#" class="btn btn-primary">Share</a>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="col"*ngIf="dish">
+            <h3 style="text-align:center;">Comments</h3>
+            <div class="comments" *ngFor =" let c of dish.comments">
+                <h5>{{c.author}}</h5>
+                <p>{{c.comment}}</p>
+                <p>{{c.date | date}}</p>
+                <p>Rating: {{c.rating}}</p>
+            </div>
+
+        </div>
+
+    </div>
+</div>
