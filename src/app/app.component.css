@@ -1,0 +1,10 @@
+ul{
+    margin: auto;
+}
+li{
+    margin: 0px 20px;
+}
+.active{
+    background-color: rgb(73, 66, 66);
+    border-radius: 10px;
+}

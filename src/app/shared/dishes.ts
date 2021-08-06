@@ -3,11 +3,12 @@
  export const DISHES : dish[] = [
     
     {
+      id: 1,  
       name:"Chicken Tikka",
       description : "ajdajfddfsdsbdsubvfbvs",
       price: "Rs. 240.00",
       image: "/assets/images/nathan-dumlao-IjovY65WQiE-unsplash.jpg",
-      active: true,
+      active: false,
       comments: [
         {
             rating: 5,
@@ -43,11 +44,13 @@
     },
     
     {
+        id: 2,
       name:"Panner tikka",
       description : "ajdajfddfsdsbdsubvfbvs",
       price: "Rs. 240.00",
       image: "/assets/images/viktor-forgacs-WmKXu-bzygo-unsplash.jpg",
-      active: true,comments: [
+      active: false,
+      comments: [
         {
             rating: 5,
             comment: 'Imagine all the eatables, living in conFusion!',
@@ -82,6 +85,8 @@
     },
     
     {
+        id: 3,
+    
       name:"Chilly Chicken",
       description : "ajdajfddfsdsbdsubvfbvs",
       price: "Rs. 240.00",

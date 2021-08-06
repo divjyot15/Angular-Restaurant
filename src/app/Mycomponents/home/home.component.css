@@ -1,0 +1,18 @@
+#carouselExampleCaptions img{
+    width: 100%;
+    height: 650px;
+    opacity: 0.8;
+}
+#welcome{
+    font-size: 80px;
+    color: black;
+    text-shadow: 5px 2px 2px white;
+}
+#name{
+    /* margin-bottom: 100px; */
+    font-size: 60px;
+    color: brown;
+}
+#booktable{
+    margin-bottom: 20px;
+}
